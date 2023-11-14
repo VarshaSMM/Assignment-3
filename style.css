@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(https://directlinedev.com/media/services/service/background/background_16_WabjYvZ.wide.jpeg);
+    font-family: 'Duru Sans', sans-serif;
+}
+.head{
+    color: beige;
+    width: 100wh;
+    height: 65px;
+    background-color: rgb(119, 179, 199);
+  
+}
+.link{
+    display: flex;
+gap: 80px;
+margin-top: 10px;
+}
+.head label{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top:20px ;
+    margin-left: 30px;
+  
+}
+.head label span{
+color: rgb(4, 64, 84);
+}
+.head nav a{
+    color: beige;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top:15px ;
+
+}
+.head nav a:hover{
+    color: rgb(58, 87, 97);
+}
+.flexbar{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0% ;
+    
+}
+
+.button-humb:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+.button-humb{
+   
+    width: 40px;
+    height: 35px;
+background-color: rgb(2, 60, 114);
+color: beige;
+font-size: 20px;
+border: none;
+border-radius: 7px;
+
+
+}
+.div-button{
+    margin-top: 15px;
+    margin-right: 30px;
+     margin-bottom:12px;
+}
+
+.dropdown li{
+   list-style-type: none;
+}
+.dropdown ul{
+   
+    margin-top: 2px;
+padding: 15px 50px 100vh 30px;
+text-align: left;
+   background-color: rgba(208, 49, 49,.5);
+}
+.dropdown ul li{
+    padding: 15px 30px 15px 30px;
+    text-align: left;
+       color: rgb(255, 254, 254);
+}
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+
+
+} 
+#myLinks{
+    display: none;
+}
+    
+.firstpage{
+    background-color:rgba(195, 195, 166,.2);
+    padding: 20px 20px 20px 20px;
+    color: rgba(208, 49, 49);
+    font-size: 30px;
+    margin: 5% 40% 5% 5%;
+    border-radius: 8px;
+}
+.panel{
+    display: none;
+    background-color:rgba(252, 252, 247, 0.2);
+    color: beige;
+    font-size: 14px;
+    margin: 5% 40% 5% 5%;
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+}
+.accordion{
+    color: beige;
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(119, 179, 199,.5);
+    margin: 5% 60% 5% 5%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.accordion:hover{
+    background-color: rgba(119, 179, 199,1);
+}
+.tagname{
+    color: rgba(235, 235, 225,.2);
+    padding: 20px 30px 20px 30px;
+    font-size: 40px;
+    margin: 5% 60% 5% 5%;
+}
+.productdiv{
+    background-color:rgba(195, 195, 166,.2);
+    font-size: 14px;
+    margin: 5% 20% 5% 5%;
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+    color: beige;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    background-image:linear-gradient(to right,rgb(2, 33, 43),rgb(1, 59, 78));
+    color: rgba(240, 240, 231,.7);
+    padding: 70px 30px 70px 30px;
+}
+.foot h3{
+    font-size: 14px;
+    color: rgb(240, 149, 149);
+    font-weight: 100;
+    margin-left: 20px;
+}
+.foot ul li{
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 30px;
+}

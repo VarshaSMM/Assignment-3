@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="head">
+        <nav class="flexbar">
+        <label>Software<span> Company</span></label>
+        <div class="link">
+        <a href="#first">Home</a>
+        <a href="#second">Services</a>
+        <a href="#third">Products</a>
+    </div>
+    <div class="block">
+        <div class="div-button">
+       <button class="button-humb" onclick="myFunction()">&#9776</button>
+       </div>
+    <nav class="dropdown" id="myLinks" > 
+        <ul>
+            <li><a href="#">Careers</a></li>
+            <li> <a href="#">Contact us</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </nav>
+</div>
+    </nav>
+    </header>
+    <main class="one">
+    <section  class="firstpage" id="first">
+        <h1>WE BUILD YOUR <br>SOFTWARE</h1>
+
+
+    </section>
+    <section class="secondpage" id="second">
+        <h1 class="tagname">Services</h1>
+       <h1 class="accordion"> Mobile Application Development</h1>
+       <div class="panel">
+       <p> Mobile application development creates software for digital assistants and smartphones. Users can access the
+         software on their device through a mobile web browser or download it from a mobile app store. The programming languages used for
+          such software include HTML5, C#, Java, and Swift.
+        
+        Today, mobile devices and applications provide the most convenient way for companies to connect to the internet. To stay responsive,
+         businesses need to develop mobile applications that their employees, partners, and customers demand.
+        </p>
+    </div>
+       <h1 class="accordion"> IT Consulting</h1>
+       <div class=" panel">
+       <p> IT consulting services help clients evaluate different technology strategies and align them with your business.
+         These services provide strategic, operational, and architectural planning to support customers’ IT initiatives. Strategic 
+         planning involves advisory services that allow clients to gauge their IT needs before formulating implementation plans.
+        
+        Moreover, architectural planning involves advisory services, combining knowledge and strategic plans of emerging technologies
+         to develop the system’s local design and support infrastructure. Operational assessment features services assessing the functioning
+         efficiency and the capacity of the client’s IT setting.
+        
+        </p>
+    </div>
+    
+       <h1 class="accordion"> Software Prototyping</h1>
+       <div class="panel">
+       <p> The process of software prototyping creates incomplete versions of an application for its progressive improvement.
+         It’s somewhat similar to the prototyping generally performed in mechanical and manufacturing fields. Typically, a software
+          prototype only executes a few of the required features. IT can also be significantly different from the final product. 
+        
+        The benefit of prototyping is that developers obtain regular user feedback early in the project. Both users and developers 
+        can easily determine how well the prototype fits the software specifications used to build a prototype. Moreover, project managers 
+        can ensure that their initial milestones and deadlines are realistic.
+    </p>
+</div>
+    </section>
+    <section>
+        <h1 class="tagname" id="third">Products</h1>
+        <div class="productdiv">
+        <h3>Generic products: </h3>
+<p>Generic products are stand-alone systems that are developed by a production unit and sold on the open market to any 
+    customer who is able to buy them.
+</p>
+<h3>Customized Products: </h3>
+<p>Customized products are the systems that are commissioned by a particular customer. 
+    Some contractor develops the software for that customer.
+    </p>
+        </div>
+    </section>
+    <footer class="foot">
+        <div>
+        <h3>
+            GET CONNECTED 
+        </h3>
+        <ul>
+            <li>
+                Connectivity 
+            </li>
+            <li>Dashboard</li>
+        </ul>
+    </div>
+    <div>
+        <h3>
+            DEVELOPERS
+        </h3>
+        <ul>
+            <li>
+                Projects 
+            </li>
+            <li>Open Source</li>
+        </ul>
+    </div>
+    <div>
+        <h3>
+            COMPANY 
+        </h3>
+        <ul>
+            <li>
+              About Us
+            </li>
+            <li>Blog</li>
+            <li>Partnerships</li>
+            <li>Careers</li>
+        </ul>
+    </div>
+    <div>
+        <h3>
+            SOCIAL
+        </h3>
+        <ul>
+            <li>
+                Linkedin
+            </li>
+            <li>GitHub</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+        </ul>
+    </div>
+    </footer>
+</main>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
